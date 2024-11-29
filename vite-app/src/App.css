@@ -1,0 +1,90 @@
+ #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: url("https://assets-v2.lottiefiles.com/a/9397d67a-1150-11ee-b84c-63325e245690/PWMZ9MiYVL.gif ");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+  width: 280px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+button {
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 3px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 100px;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button:hover {
+  background-color:  #670979b3;
+  transform: scale(1.1);
+  color: white;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+.counter-btns {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.counter-btns button {
+  margin: 0 10px;
+}
